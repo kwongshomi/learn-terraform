@@ -8,6 +8,8 @@ This is what happens when doing a "terraform apply"
 - the instance is added to the specified AZ, VPC subnet
 - the specified security groups are added
 - an EIP is allocated and attached to this node
+- the IP of the Chef server is added to the /etc/hosts file using the remote-exec provisioner
+- a Chef provisioner is run to bootstrap the instance, then run the specified cookbook.
 
 ###Do a Terraform dry run
 
