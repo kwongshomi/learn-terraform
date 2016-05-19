@@ -1,0 +1,12 @@
+access_key = ""
+secret_key = ""
+
+chef_server_url = "https://dev-chef-server-ken.shomi.com/organizations/shomidevken"
+chef_validation_client_name = "shomidevken-validator"
+chef_validation_key = "/Users/ken.wong/learn-chef/chef-repo/.chef/shomidevken-validator.pem"
+aws_private_key = "/Users/ken.wong/.ssh/kenwongshomicom.pem"
+vpc_subnet = "subnet-2ed00405"
+keypair_name = "ken.wong@shomi.com"
+availability_zone = "us-east-1d"
+node_name = "dev-chef-tf-node-ken"
+
